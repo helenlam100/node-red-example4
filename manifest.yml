@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-example4
+  host: node-red-example4
+  disk_quota: 1024M
+  services:
+  - node-red-example4-cloudantNoSQLDB
+  - node-red-example4-iotf-service
